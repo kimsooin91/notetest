@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul,
+li,
+button,
+p,
+div {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.main {
+    display: flex;
+    margin-top: 14%;
+    margin-left: 12%;
+    margin-right: 13%;
+    gap: 11%;
+    font-size: 32px;
+    .name_t {
+        font-weight: 500;
+    }
+    .gray_t {
+        font-weight: 500;
+        color: gray;
+    }
+    .my_info {
+        font-size: 26px;
+        font-weight: 400;
+    }
+}
+
+.center {
+    margin-top: 12%;
+    z-index: 99;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .center_img {
+        width: 100vw;
+        img {
+            width:100%;
+        }
+    }
+    .center_info {
+        position: absolute;
+        font-size: 20px;
+        left:calc(50% - 100px);
+    }
+}
+
+.second_page {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+ 
+    .second_career {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        line-height: 50px;
+        padding-top: 14%;
+    }
+    .second_abillity {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        padding-left: 10%;
+        line-height: 50px;
+        padding-top: 14%;
+    }
+    .second_lisence {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        padding-left: 10%;
+        line-height: 50px;
+        padding-top: 14%;
+    }
+    .second_contact {
+        display: flex;
+        color: white;
+        font-size: 20px;
+        padding-left: 10%;
+        line-height: 50px;
+        padding-right: 3%;
+        padding-top: 14%;
+    }
+    
+
+    .info {
+        font-size: 30px;
+        font-weight: 500;
+        color:whitesmoke;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        z-index: 99;
+        padding-top:7%;
+        .rect {
+            position: absolute;
+            opacity: 70%;
+    }
+    }
+    }
