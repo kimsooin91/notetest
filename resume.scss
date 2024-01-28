@@ -47,7 +47,7 @@ div {
    
     .top_high_1 {
         position:absolute;
-        width:250px;
+        width:200px;
         right:100px;
         top:20vh;
         img{
@@ -65,9 +65,9 @@ div {
     }
     .top_high_3 {
         position:absolute;
-        width:480px;
+        width:380px;
         right:40px;
-        top:910px;
+        top:840px;
         img{
             width:100%;
         }
@@ -78,8 +78,8 @@ div {
         flex-wrap:wrap;
         justify-content: space-between;
         .two_1 {
-            width:700px;
-            padding-left:400px;
+            width:530px;
+            padding-left:300px;
             padding-top:170px;
             top: 1200px;
             img{
@@ -87,7 +87,7 @@ div {
         }
         }
         .two_2 {
-            width:370px;
+            width:270px;
             padding-top:300px;
             img{
                 width:100%;
@@ -129,7 +129,7 @@ div {
             right: 17%;
             z-index: 99;
             font-size:9vw;
-            line-height: 9vw;
+            line-height: 10vw;
             color:#fff;
             -webkit-text-stroke: 1px #000;
             font-weight:500;
@@ -184,7 +184,7 @@ div {
         }
         .oioi_title {
             position: absolute;
-            padding-top: 480px;
+            padding-top: 370px;
             left: 13%;
             z-index: 99;
             font-size:9vw;
@@ -244,7 +244,7 @@ div {
         }
         .nice_title {
             position: absolute;
-            padding-top: 580px;
+            padding-top: 450px;
             padding-left: 18%;
             left: 13%;
             z-index: 99;
@@ -292,7 +292,7 @@ div {
         .last_title {
             margin-top: 8%;
             margin-left: 4%;
-            font-size: 10vw;
+            font-size: 7vw;
             line-height: 11vw;
             color: white;
             font-weight: 100;
@@ -302,7 +302,7 @@ div {
         .last_title2 {
             margin-top: 18%;
             margin-left: 3%;
-            font-size: 10vw;
+            font-size: 7vw;
             line-height: 11vw;
             font-weight: 100;
             color: white;
@@ -312,7 +312,7 @@ div {
         .last_title3 {
             position: absolute;
             color: black;
-            font-size: 20px;
+            font-size: 14px;
             z-index: 100;
             padding-left: 5%;
             padding-top: 33%;
